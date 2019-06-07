@@ -1,0 +1,9 @@
+<h1>Listagem nunjucks</h1>
+<h2>Bem vindo {{name}}</h2>
+<ul>
+{% for user in users %}
+  <li>{{user}}</li>
+{% endfor %}
+</ul>
+
+<a href="/new">Cadastrar usuário</a>
